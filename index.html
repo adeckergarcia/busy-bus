@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BusyBus</title>
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -18,101 +19,164 @@
     <h1>Washington & State</h1>
   </header>
   <main>
-    <!-- Arrivals -->
-    <section>
-      <h2>Arriving next at stop</h2>
-      <ul>
-        <li>
-          <span>
+    <!-- Arriving next section -->
+    <section class="section-wrapper">
+      <h2 class="section-heading">Arriving next at stop</h2>
+      <ul class="route-info-bar-wrapper">
+        <!-- Route 1 -->
+        <li class="route-info-bar">
+          <span class="route-id">
             <h3>60</h3>
           </span>
-          <span>
+          <span class="route-destination">
             <p>Randolph/Harbor Dr</p>
             <small>Eastbound</small>
           </span>
-          <span>
+          <span class="route-arrival-time">
             <p>2 min</p>
             <small>Every 20 minutes</small>
           </span>
-          <span>
+          <span class="route-chevron-right-arrow">
             <i class="fas fa-chevron-right"></i>
           </span>
         </li>
-        <li>
-          <span>
-            <h3>60</h3>
+        <!-- Route 2 -->
+        <li class="route-info-bar">
+          <span class="route-id">
+            <h3>124</h3>
           </span>
-          <span>
-            <p>Randolph/Harbor Dr</p>
+          <span class="route-destination">
+            <p>Navy Pier</p>
             <small>Eastbound</small>
           </span>
-          <span>
+          <span class="route-arrival-time">
             <p>2 min</p>
-            <small>Every 20 minutes</small>
+            <small>Every 10 minutes</small>
           </span>
-          <span>
+          <span class="route-chevron-right-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </li>
+        <!-- Route 3 -->
+        <li class="route-info-bar">
+          <span class="route-id">
+            <h3>151</h3>
+          </span>
+          <span class="route-destination">
+            <p>Devon/Clark</p>
+            <small>Northbound</small>
+          </span>
+          <span class="route-arrival-time">
+            <p>5 min</p>
+            <small>Every 16 minutes</small>
+          </span>
+          <span class="route-chevron-right-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </li>
+        <!-- Route 4 -->
+        <li class="route-info-bar">
+          <span class="route-id">
+            <h3>J14</h3>
+          </span>
+          <span class="route-destination">
+            <p>103rd/Stony Island</p>
+            <small>Southbound</small>
+          </span>
+          <span class="route-arrival-time">
+            <p>7 min</p>
+            <small>Every 15 minutes</small>
+          </span>
+          <span class="route-chevron-right-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </li>
+        <!-- Route 5 -->
+        <li class="route-info-bar">
+          <span class="route-id">
+            <h3>124</h3>
+          </span>
+          <span class="route-destination">
+            <p>Navy Pier</p>
+            <small>Southbound</small>
+          </span>
+          <span class="route-arrival-time">
+            <p>9 min</p>
+            <small>Every 10 minutes</small>
+          </span>
+          <span class="route-chevron-right-arrow">
             <i class="fas fa-chevron-right"></i>
           </span>
         </li>
       </ul>
     </section>
-    <!-- Reroutes -->
-    <section>
-      <h2>Reroutes</h2>
-      <ul>
-        <li>
-          <span>
+    <!-- Reroute section -->
+    <section class="section-wrapper">
+      <h2 class="section-heading">Reroute</h2>
+      <ul class="route-info-bar-wrapper">
+        <!-- Route 1 - Reroute -->
+        <li class="route-info-bar">
+          <span class="route-id">
             <h3>6x</h3>
           </span>
-          <span>
+          <span class="route-destination">
             <p>Jackson Park Express</p>
           </span>
-          <span>
-            <i class="fas fa-chevron-right"></i>
+          <span class="route-arrival-time">
+            <p>10 min</p>
           </span>
-        </li>
-        <li>
-          <span>
-            <h3>6x</h3>
-          </span>
-          <span>
-            <p>Jackson Park Express</p>
-          </span>
-          <span>
+          <span class="route-chevron-right-arrow">
             <i class="fas fa-chevron-right"></i>
           </span>
         </li>
       </ul>
     </section>
-    <!-- Out of service -->
-    <section>
-      <h2>Out of Service</h2>
-      <ul>
-        <li>
-          <span>
+    <!-- Out of service section -->
+    <section class="section-wrapper">
+      <h2 class="section-heading">Out of Service</h2>
+      <ul class="route-info-bar-wrapper">
+        <!-- Route 1 - Out of Service -->
+        <li class="route-info-bar">
+          <span class="route-id">
             <h3>4</h3>
           </span>
-          <span>
+          <span class="route-destination">
             <p>Cottage Grove</p>
           </span>
-          <span>
+          <span class="route-arrival-time">
             <p>Resumes 12:10am</p>
           </span>
-          <span>
+          <span class="route-chevron-right-arrow">
             <i class="fas fa-chevron-right"></i>
           </span>
         </li>
-        <li>
-          <span>
-            <h3>4</h3>
+        <!-- Route 2 - Out of Service -->
+        <li class="route-info-bar">
+          <span class="route-id">
+            <h3>20</h3>
           </span>
-          <span>
-            <p>Cottage Grove</p>
+          <span class="route-destination">
+            <p>Madison</p>
           </span>
-          <span>
+          <span class="route-arrival-time">
             <p>Resumes 12:10am</p>
           </span>
-          <span>
+          <span class="route-chevron-right-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </li>
+        <!-- Route 3 - Out of Service -->
+        <li class="route-info-bar">
+          <span class="route-id">
+            <h3>157</h3>
+          </span>
+          <span class="route-destination">
+            <p>Streeterville/Taylor</p>
+          </span>
+          <span class="route-arrival-time">
+            <p>Resumes 6:00am</p>
+          </span>
+          <span class="route-chevron-right-arrow">
             <i class="fas fa-chevron-right"></i>
           </span>
         </li>
