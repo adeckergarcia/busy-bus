@@ -5,11 +5,36 @@
 body {
   font-size: 16px;
   font-family: 'Nunito', sans-serif;
-  background-color: #ebebeb
+  color: #4c4c4c;
+  background-color: #ebebeb;
+}
+
+main {
+  /* Top margin matches height of nav bar */
+  margin-top: 44px;
+  /* Bottom margin matches height of tab bar */
+  margin-bottom: 73px;
 }
 
 a {
   text-decoration: none;
+  color: #4c4c4c;
+}
+
+.font-sm {
+  font-size: .85em;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-bar-wrapper {
@@ -26,7 +51,7 @@ a {
 }
 
 .arrow {
-
+  margin-left: 8px;
 }
 
 /* Left arrow inside nav-bar */
@@ -48,35 +73,79 @@ a {
 
 }
 
-.section-heading {
+.section-wrapper:last-child {
+  padding-bottom: 20px;
+}
 
+.section-heading {
+  font-size: 15px;
+  padding: 20px 0 10px 20px;
 }
 .route-info-bar-wrapper {
 
 }
 
 .route-info-bar {
-
+  background-color: #fff;
+  padding: 20px 20px 0 20px;
 }
 
 .route-info-link {
 
 }
 
-.route-id {
+.route-info-link-content-wrapper {
+  height: 60px;
+}
 
+.route-info-link-content-arrival {
+  float: right;
+}
+
+.route-id {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  border: 1px solid #4c4c4c;
+  padding: 5px 0 2px;
+  margin-right: 5px;
+  width: 70px;
+  text-align: center;
+  float: left;
 }
 
 .route-destination {
+  display: inline-block;
+  max-width: 35%;
+  float: left;
+  padding-top: 5px;
+}
 
+.section-reroute .route-destination {
+  padding-top: 12px;
+}
+
+.section-reroute .route-arrival-time {
+  padding-top: 0px;
+}
+
+.section-reroute .route-arrival-time {
+  line-height: .5;
+}
+
+.section-reroute .route-info-link-content-arrival {
+  padding-top: 3px;
 }
 
 .route-arrival-time {
-
+  display: inline-block;
+  text-align: right;
+  padding-top: 6px;
 }
 
 .tab-bar-wrapper {
   background-color: #fff;
+  border-top: 1px solid #a6a6a6;
   position: fixed;
   left: 0;
   right: 0;
@@ -89,7 +158,7 @@ a {
 
 .tab-bar-item {
   display: inline-block;
-  width: 32.669%;
+  width: 32.4%;
   text-align: center;
 }
 
