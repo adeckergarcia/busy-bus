@@ -1,9 +1,19 @@
 body {
   font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-bar-wrapper {
+  background-color: #60f;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
 .nav-bar {
-
+  position: relative;
 }
 
 .arrow {
@@ -11,12 +21,18 @@ body {
 }
 
 /* Left arrow inside nav-bar */
-.nav-bar .arrow {
-
+.nav-bar-wrapper .arrow {
+  color: #fff;
+  padding: 6px 14px 6px 10px;
+  position: absolute;
+  left: 0;
 }
 
 .nav-bar-title {
-
+  color: #fff;
+  font-size: 17px;
+  /* This padding affects height of nav bar */
+  padding: 13.5px 0;
 }
 
 .section-wrapper {
