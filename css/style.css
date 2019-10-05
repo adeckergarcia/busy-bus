@@ -1,6 +1,15 @@
+*, *before, *after {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   font-family: 'Nunito', sans-serif;
+  background-color: #ebebeb
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-bar-wrapper {
@@ -67,7 +76,11 @@ body {
 }
 
 .tab-bar-wrapper {
-
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .tab-bar {
@@ -75,7 +88,23 @@ body {
 }
 
 .tab-bar-item {
+  display: inline-block;
+  width: 32.669%;
+  text-align: center;
+}
 
+.tab-bar-link-content-wrapper {
+  padding: 10px 0;
+}
+
+.tab-bar-item .tab-bar-icon,
+.tab-bar-item .tab-bar-icon-label {
+  color: #a6a6a6;
+}
+
+.tab-bar-item.active .tab-bar-icon,
+.tab-bar-item.active .tab-bar-icon-label {
+  color: #60f;
 }
 
 .tab-bar-link {
@@ -83,11 +112,13 @@ body {
 }
 
 .tab-bar-icon {
-
+ padding-bottom: 5px;
 }
 
 .tab-bar-icon-label {
-
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* Right arrow inside routes */
