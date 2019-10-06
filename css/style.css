@@ -92,7 +92,6 @@ a {
 
 .route-info-bar {
   background-color: #fff;
-  padding: 20px 20px 0 20px;
 }
 
 .route-info-bar-divider {
@@ -106,6 +105,7 @@ a {
 
 .route-info-link-content-wrapper {
   height: 60px;
+  padding: 20px 20px 0 20px;
 }
 
 .route-info-link-content-arrival {
