@@ -72,10 +72,6 @@ a {
   padding: 13.5px 0;
 }
 
-.section-wrapper {
-
-}
-
 .section-wrapper:last-child {
   padding-bottom: 20px;
 }
@@ -84,6 +80,7 @@ a {
   font-size: 15px;
   padding: 20px 0 10px 20px;
 }
+
 .route-info-bar-wrapper {
   border-top: 1px solid #a6a6a6;
   border-bottom: 1px solid #a6a6a6;
@@ -97,10 +94,6 @@ a {
 .route-info-bar-divider {
   color: #a6a6a6;
   margin: 0 0 0 20px;
-}
-
-.route-info-link {
-
 }
 
 .route-info-link-content-wrapper {
@@ -162,10 +155,6 @@ a {
   bottom: 0;
 }
 
-.tab-bar {
-
-}
-
 .tab-bar-item {
   display: inline-block;
   width: 32.4%;
@@ -186,10 +175,6 @@ a {
   color: #60f;
 }
 
-.tab-bar-link {
-
-}
-
 .tab-bar-icon {
  padding-bottom: 5px;
 }
@@ -198,9 +183,4 @@ a {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-/* Right arrow inside routes */
-.tab-bar .arrow {
-
 }
