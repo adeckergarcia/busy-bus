@@ -29,7 +29,9 @@ a {
   font-weight: 700;
 }
 
-
+.font-orange {
+  color: #ff9919;
+}
 
 .overflow-ellipsis {
   white-space: nowrap;
