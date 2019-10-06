@@ -84,12 +84,19 @@ a {
   padding: 20px 0 10px 20px;
 }
 .route-info-bar-wrapper {
-
+  border-top: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+  background-color: #fff;
 }
 
 .route-info-bar {
   background-color: #fff;
   padding: 20px 20px 0 20px;
+}
+
+.route-info-bar-divider {
+  color: #a6a6a6;
+  margin: 0 0 0 20px;
 }
 
 .route-info-link {
