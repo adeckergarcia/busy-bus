@@ -129,15 +129,15 @@ a {
 }
 
 .section-reroute .route-arrival-time {
-  padding-top: 0px;
-}
-
-.section-reroute .route-arrival-time {
   line-height: .5;
 }
 
 .section-reroute .route-info-link-content-arrival {
   padding-top: 3px;
+}
+
+.section-out-of-service .route-info-link-content-arrival {
+  padding-top: 5px;
 }
 
 .route-arrival-time {
